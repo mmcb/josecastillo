@@ -1,3 +1,6 @@
+
+#Project number two by Jose Castillo
+
 import pandas as pd 
 import numpy as np
 import pandas_datareader.data as web
@@ -88,9 +91,7 @@ def main():
 	alpha = (b.calculate_alpha()) * 12
 	print(TMPL % (stock_symbol, b.calculate_beta(), alpha, b.calculate_r_squared()))
 
-#def get_quote(ticker):
-	#quote_url = "http://dev.markitondemand.com/Api"/v2/Quote/json?symbol=
-	#r = requests.get(quote_url)
+
 
 if __name__ == "__main__":
 	main()
